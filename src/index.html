@@ -13,7 +13,6 @@
     <script type="text/javascript" src="./main.js"></script>
 
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
-
       <fieldset class="field-group">
         <legend>Personal information</legend>
 
@@ -87,7 +86,6 @@
           >
         </label>
 
-
         <label class="form-field">
           Password:
 
@@ -137,7 +135,9 @@
 
         <label class="form-field">
           What time do you go to bed?
-          <input type="time"
+          
+          <input 
+            type="time"
             name="time"
           >
         </label>
@@ -154,6 +154,7 @@
 
         <label class="form-field">
           How do you rate our work?
+          
           <input
             type="range" 
             name="rate_our_work"
@@ -169,10 +170,10 @@
           Comments:
           <textarea
             name="comments" 
-            cols="20" rows="2"
+            cols="20"
+            rows="2"
             autocomplete="off"
-          >
-          </textarea>
+         ></textarea>
         </label>
 
         <label class="form-field">

@@ -1,7 +1,10 @@
 /* styles go here */
-.form-field ~ * {
+.form-field {
   display: block;
-  margin-top: 10px;
+}
+
+.form-field:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .field-group {
